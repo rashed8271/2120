@@ -1,17 +1,17 @@
 do
 
 function run(msg, matches)
-  return 'NOD32-BOT v8'.. VERSION .. [[ 
+  return 'ραяα∂υχ'.. VERSION .. [[ 
  
-  Developer : @Behroozyaghi
+  Developer : @Xx_A_M_xX_bye_ethd
   
-  Channel : @Nod32team
+  .
   
-  Open git : https://github.com/BH-YAGHI/NOD32-BOT.git
+  .
   
-  NOD32 VERSION 8
+  ραяα∂υχ v1
   
-  All rights reserved.
+  user bot:  @paradux_v1
   __________________]]
 end
 
