@@ -1,7 +1,7 @@
 
 
 do
-local SUDO = 106164433 --put your id here(BOT OWNER ID)
+local SUDO = 218233977 --put your id here(BOT OWNER ID)
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -196,7 +196,7 @@ local function run(msg, matches)
 	 text = text..'نام گروه : '..msg.to.title..'\n'
      text = text..'ایدی گروه : '..msg.to.id
     end
-	text = text..'\n\nnod32 edited version'
+	text = text..'\n\nραяα∂υχ'
     return send_msg(receiver, text, ok_cb, true)
     end
   end
@@ -234,7 +234,4 @@ return {
 
 end
 
---Copyright; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
+
