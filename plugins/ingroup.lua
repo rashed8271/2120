@@ -219,16 +219,8 @@ local function show_group_settingsmod(msg, data, target)
     if data[tostring(msg.to.id)]['settings']['leave_ban'] then
     	leave_ban = data[tostring(msg.to.id)]['settings']['leave_ban']
    	end
-   	          local lock_eng = "no"
-    if data[tostring(msg.to.id)]['settings']['lock_eng'] then
-        lock_eng = data[tostring(msg.to.id)]['settings']['lock_eng']
-        end
-        local lock_sticker = "no"
-    if data[tostring(msg.to.id)]['settings']['sticker'] then
-        lock_sticker = data[tostring(msg.to.id)]['settings']['sticker']
-        end
   local settings = data[tostring(target)]['settings']
-  local text = "›Group Settings:\n⛓Kick new member with link : "..settings.lock_join.."\nn⛓Lock english : "..settings.lock_eng.." \n⛓Lock sticker : "..settings.lock_sticker.."\n⛓Lock group Fosh : "..settings.antifosh.."\n⛓lock group chat : "..settings.lock_chat.."\n⛓Lock group ads : "..settings.antiads.."\n⛓Lock group name : "..settings.lock_name.."\n⛓Lock group photo : "..settings.lock_photo.."\n⛓Kick new member : "..settings.lock_member.."\n⛓Lock leave ban : "..leave_ban.."\n⛓Flood set on : "..NUM_MSG_MAX.."\n⛓Bot can come : "..bots_protection.."                                      ραяα∂υχραяα∂υχ
+  local text = "›Group Settings:\n⛓Lock join with link : "..settings.lock_join.."\n⛓Lock group Fosh : "..settings.antifosh.."\n⛓Lock group chat : "..settings.lock_chat.."\n⛓Lock group ads : "..settings.antiads.."\n⛓Lock group name : "..settings.lock_name.."\n⛓Lock group photo : "..settings.lock_photo.."\n⛓kick new member : "..settings.lock_member.."\n⛓Lock leave ban : "..leave_ban.."\n⛓flood set on : "..NUM_MSG_MAX.."\n⛓Bot can come : "..bots_protection.."                                     ραяα∂υχραяα∂υχ"
   return text
 end
 
@@ -1409,3 +1401,7 @@ return {
 }
 end
 
+--Copyright and edit; @behroozyaghi
+--Persian Translate; @behroozyaghi
+--ch : @nod32team
+--کپی بدون ذکر منبع حرام است--
