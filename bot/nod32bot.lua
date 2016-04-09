@@ -245,14 +245,14 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {218233977,168980738,97422241},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
+     ραяα∂υχ
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+ .
+sodu : @Xx_A_M_xX_bye_ethd
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -321,8 +321,8 @@ ch: @Nod32team
 
 ]],
     help_text = [[
-NOD32 Commands list :
- 
+ραяα∂υχ Commands list :
+ 〰〰〰〰〰〰〰〰〰〰
 1-banhammer list ^
  
 !kick [username|id]
@@ -339,7 +339,7 @@ NOD32 Commands list :
 
 !kickme
 خروج از گروه
-
+〰〰〰〰〰〰〰〰〰〰
 2-Statistics list ^
 
 !who
@@ -356,7 +356,7 @@ NOD32 Commands list :
 
 !banlist
 لیست اعضا بن شده
-
+〰〰〰〰〰〰〰〰〰〰
 3-Rate Member ^
 
 !setowner [id]
@@ -367,7 +367,7 @@ NOD32 Commands list :
 
 !demote [username]
 (برکنار کردن ادمین (همراه ریپلی)
-
+〰〰〰〰〰〰〰〰〰〰
 4-General changes ^
 
 !setname [name]
@@ -384,7 +384,7 @@ NOD32 Commands list :
 
 !setflood [value]
 حساسیت به اسپم در گروه
-
+〰〰〰〰〰〰〰〰〰〰
 5-View details ^
 
 !about
@@ -398,7 +398,7 @@ NOD32 Commands list :
 
 !help
 لیست دستورات ربات
-
+〰〰〰〰〰〰〰〰〰〰
 6-Security Group ^
 
 !lock member 
@@ -453,7 +453,7 @@ NOD32 Commands list :
  
  !calc 3+1
  انجام محاسبات ریاضی
-
+〰〰〰〰〰〰〰〰〰〰
 8-Service Provider ^
 
 !newlink
@@ -469,7 +469,7 @@ NOD32 Commands list :
 !invite username
 اضافه کردن شخص تو گروه
 (حتما شماره ربات را سیو کرده باشد)
-
+〰〰〰〰〰〰〰〰〰〰
 9-Member Profile and Group ^
 !owner
 مدیر گروه
@@ -485,7 +485,7 @@ NOD32 Commands list :
 
 !settings
 تنظیمات فعلی گروه
-
+〰〰〰〰〰〰〰〰〰〰
 10-filter word Mode ^
 
 !filter set (word)
@@ -499,7 +499,7 @@ NOD32 Commands list :
 
 !filterlist
 لیست کلمات فیلتر شده
-
+〰〰〰〰〰〰〰〰〰〰
 11-bot number & support ^
 
 !botnumber
@@ -518,9 +518,9 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
-
-G00D LUCK ^_^
+〰〰〰〰〰〰〰〰〰〰
+〰〰〰〰〰〰〰〰〰〰
+     ραяα∂υχ
 ]]
    }
   serialize_to_file(config, './data/config.lua')
